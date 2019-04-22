@@ -1,0 +1,11 @@
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\models\Total.java
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\scrapers\GroceryPageScraper.java
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\exceptions\JsoupException.java
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\utils\JsoupWrapper.java
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\scrapers\GroceryListPageScraper.java
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\utils\TotalCalculator.java
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\models\GroceryResult.java
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\models\Grocery.java
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\controllers\GroceryController.java
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\Application.java
+C:\Users\jakeb\source\scraper\src\main\java\uk\co\project\scraper\exceptions\HtmlSelectorException.java

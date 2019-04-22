@@ -38,7 +38,7 @@ public class GroceryControllerTest {
 		List<Grocery> groceries = Arrays.asList(grocery, grocery);
 		List<String> urls = Arrays.asList("", "");
 		BigDecimal expectedGross = new BigDecimal(2).setScale(2);
-		BigDecimal expectedVat = new BigDecimal(1.67).setScale(2, RoundingMode.HALF_UP);
+		BigDecimal expectedVat = new BigDecimal(0.33).setScale(2, RoundingMode.HALF_UP);
 		Total total = new Total(expectedGross, expectedVat);
 		GroceryResult expected = new GroceryResult(groceries, total);
 		

@@ -3,7 +3,7 @@ package uk.co.project.scraper.utils;
 import org.junit.Before;
 import org.junit.Test;
 
-import uk.co.project.exceptions.JsoupException;
+import uk.co.project.scraper.exceptions.JsoupException;
 
 public class JsoupWrapperTest {
 

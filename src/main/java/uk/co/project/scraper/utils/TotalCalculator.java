@@ -15,7 +15,7 @@ public abstract class TotalCalculator {
 		for (Grocery grocery : groceries) {
 			gross = gross.add(grocery.getUnitPrice());
 		}
-		BigDecimal vat = gross.divide(vatDivider, 2, RoundingMode.HALF_UP);
+		BigDecimal vat= gross.subtract(gross.divide(vatDivider, 2, RoundingMode.HALF_UP));
 		return new Total(gross.setScale(2), vat);
 	}
 }

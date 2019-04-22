@@ -15,7 +15,7 @@ import org.jsoup.select.Elements;
 import org.junit.Before;
 import org.junit.Test;
 
-import uk.co.project.exceptions.HtmlSelectorException;
+import uk.co.project.scraper.exceptions.HtmlSelectorException;
 import uk.co.project.scraper.models.Grocery;
 import uk.co.project.scraper.utils.JsoupWrapper;
 

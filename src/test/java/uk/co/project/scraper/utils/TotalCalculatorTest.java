@@ -24,7 +24,7 @@ public class TotalCalculatorTest {
 		groceryTwo.setUnitPrice(price);
 		List<Grocery> groceries = Arrays.asList(groceryOne, groceryTwo);
 		BigDecimal expectedGross = new BigDecimal(2).setScale(2);
-		BigDecimal expectedVat = new BigDecimal(1.67).setScale(2, RoundingMode.HALF_UP);
+		BigDecimal expectedVat = new BigDecimal(0.33).setScale(2, RoundingMode.HALF_UP);
 		Total expected = new Total(expectedGross, expectedVat);
 		
 		//Act

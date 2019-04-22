@@ -45,10 +45,10 @@ public class GroceryListPageScraperTest {
 		doReturn(mockElements).when(mockElements).select(any());
 		doReturn(mockElement).when(mockElements).first();
 		doReturn(url).when(mockElement).attr(any());
-		List<String> actual = groceryListPageScraper.getGroceryUrls(any());
+		List<String> actual = groceryListPageScraper.getGroceryUrls("https://jsainsburyplc.github.io/serverside-test/site/"
+				+ "www.sainsburys.co.uk/webapp/wcs/stores/servlet/gb/groceries/berries-cherries-currants6039.html");
 		
 		//Assert
 		assertEquals(expected, actual);
 	}
-	
 }

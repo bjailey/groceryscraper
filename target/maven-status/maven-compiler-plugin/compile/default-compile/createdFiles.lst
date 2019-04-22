@@ -1,0 +1,11 @@
+uk\co\project\scraper\exceptions\HtmlSelectorException.class
+uk\co\project\scraper\models\Grocery.class
+uk\co\project\scraper\models\GroceryResult.class
+uk\co\project\scraper\models\Total.class
+uk\co\project\scraper\exceptions\JsoupException.class
+uk\co\project\scraper\utils\JsoupWrapper.class
+uk\co\project\scraper\scrapers\GroceryPageScraper.class
+uk\co\project\scraper\Application.class
+uk\co\project\scraper\utils\TotalCalculator.class
+uk\co\project\scraper\controllers\GroceryController.class
+uk\co\project\scraper\scrapers\GroceryListPageScraper.class

@@ -1,0 +1,5 @@
+uk\co\project\scraper\utils\TotalCalculatorTest.class
+uk\co\project\scraper\scrapers\GroceryListPageScraperTest.class
+uk\co\project\scraper\utils\JsoupWrapperTest.class
+uk\co\project\scraper\controllers\GroceryControllerTest.class
+uk\co\project\scraper\scrapers\GroceryPageScraperTest.class

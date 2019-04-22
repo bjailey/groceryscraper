@@ -1,12 +1,10 @@
 package uk.co.project.scraper.utils;
 
-import java.io.IOException;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.springframework.stereotype.Component;
 
-import uk.co.project.exceptions.JsoupException;
+import uk.co.project.scraper.exceptions.JsoupException;
 
 @Component
 public class JsoupWrapper {
@@ -14,10 +12,8 @@ public class JsoupWrapper {
 	public Document getDocument(String url) {
 		try {
 			return Jsoup.connect(url).get();
-		} catch (IOException e) {
-			JsoupException jsoupException = new JsoupException();
-			jsoupException.setStackTrace(e.getStackTrace());
-			throw jsoupException;
+		} catch (Exception e) {
+			throw new JsoupException(url);
 		}
 	}
 }
